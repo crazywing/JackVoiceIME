@@ -1,6 +1,6 @@
 name: Build Android APK
 run: ./gradlew assembleRelease
-  env:
+env:
     CI_NAME: GitHub Actions
 on:
   workflow_dispatch:
